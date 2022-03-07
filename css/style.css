@@ -285,14 +285,16 @@ iframe#iframeVideo {
 }
 
 .setButtons {
-    display: row;
+    display: flex;
+    min-width: 100%;
 }
 
 .setButtons button {
     width: 100%;
+    height: 100%;
 }
 
-.setButtons button:first-child {
+/* .setButtons button:first-child {
     width: 100%;
     margin-left: 0;
 }
@@ -300,7 +302,7 @@ iframe#iframeVideo {
 .setButtons button:last-child {
     width: 100%;
     margin-right: 0;
-}
+} */
 
 @keyframes flicker {
     0% {
