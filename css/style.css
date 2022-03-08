@@ -286,12 +286,11 @@ iframe#iframeVideo {
 
 .setButtons {
     display: flex;
-    min-width: 100%;
+    flex-wrap: wrap;
 }
 
-.setButtons button {
-    width: 100%;
-    height: 100%;
+.setButtons a {
+    width: calc(100% * (1/3));
 }
 
 /* .setButtons button:first-child {
