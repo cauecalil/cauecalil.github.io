@@ -291,6 +291,7 @@ iframe#iframeVideo {
 
 .setButtons a {
     width: calc(100% * (1/3));
+    height: 100%;
 }
 
 /* .setButtons button:first-child {
