@@ -213,14 +213,6 @@ button:visited {
     left: 0;
 }
 
-#firstVideo {
-    font-family: "Share Tech Mono", monospace;
-}
-
-#firstVideo:after {
-    content: "";
-}
-
 .imageDisplay:after {
     padding-top: 56.25%;
     display: block;
@@ -233,10 +225,6 @@ button:visited {
     margin: 0 auto;
     text-align: center;
     background-color: #FF1E1E;
-}
-
-iframe#iframeVideo {
-    mix-blend-mode: overlay;
 }
 
 .buttonGroup {
@@ -262,24 +250,6 @@ iframe#iframeVideo {
     z-index: 10;
 }
 
-.bgVideo {
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1000;
-    overflow: hidden;
-}
-
-.bgVideo iframe {
-    width: 100%;
-    height: 100%;
-}
-
 .buttonGroup p {
     margin-bottom: 1em;
 }
@@ -293,16 +263,6 @@ iframe#iframeVideo {
     width: calc(100% * (1/3));
     height: 100%;
 }
-
-/* .setButtons button:first-child {
-    width: 100%;
-    margin-left: 0;
-}
-
-.setButtons button:last-child {
-    width: 100%;
-    margin-right: 0;
-} */
 
 @keyframes flicker {
     0% {
